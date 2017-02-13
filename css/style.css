@@ -85,13 +85,21 @@ ul {
   margin: 0;
 }
 li {
-  margin: 1%;
+  margin: 0
 }
 .menu {
   display: inline;
   margin-bottom: 5%;
 }
-
+.cart {
+  float: right;
+  display: inline;
+  margin-top: 2%;
+  margin-right: 2%;
+}
+.fa fa-shopping-bag:hover {
+  color: #ab1e23;
+}
 /*Hero area*/
 .hero {
   background-image: url(../images/vintagevogue.jpg);
@@ -138,10 +146,6 @@ li {
   margin-left: 1%;
   width: 30%;
 }
-.footer {
-  background-color: #39474e;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  width: 100%;
+.cart {
 
 }

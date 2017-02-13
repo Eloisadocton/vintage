@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+/*Hero text*/
+h1 {
+  font-size: 5rem;
+  font-weight: bolder;
+  color: white;
+  padding-left: 10%;
+  padding-bottom: 35%;
+}
+/*Discover our Courses*/
+h2 {
+  font-family: sans;
+  font-size: 1rem;
+  color: #ffffff;
+  text-align: center;
+}
+/*Employers header*/
+h3 {
+  font-family: serif;
+  font-size: 3rem;
+  color: white;
+  margin-top: 5%;
+  font-style: italic;
+}
+/*Info on Iron Yard hader*/
+h4 {
+  color: #9f1d20;
+  font-size: 2.5rem;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 200;
+  margin-top: 5%;
+  margin-bottom: 0;
+}
+/*Questions?*/
+h5 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #727d84;
+  font-family: serif;
+}
+/*Headers in boxes?*/
+h6 {
+  color: white;
+  font-size: 2rem;
+  font-family: serif;
+  color: #727d84;
+  font-weight: bold;
+}
+/*General text*/
+p {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  text-shadow: 2px 2px #cccccc;
+}
+/*General text*/
+a {
+  color: #727d84;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-left: 1%;
+  text-decoration: none;
+  font-weight: 200;
+}
+a:hover {
+  color: #ab1e23;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-left: 1%;
+  text-decoration: none;
+  transition: 1s;
+}
+nav {
+padding: 1%;
+}
+.logo {
+  height: 50px;
+}
+ul {
+  margin: 0;
+}
+li {
+  margin: 1%;
+}
+.menu {
+  display: inline;
+  margin-bottom: 5%;
+}
+
+/*Hero area*/
+.hero {
+  background-image: url(../images/vintagevogue.jpg);
+  width: 100%;
+  min-height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.welcome {
+  background-image: url(../images/herringbone.jpg);
+  background-repeat: repeat;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.welcome a {
+  text-align: center;
+}
+.welcome-left {
+  float: left;
+  margin: 2%;
+}
+.features {
+  padding: 1%;
+}
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+}
+.dresses {
+  margin: 1%;
+}
+.review {
+  float: right;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-left: 1%;
+  width: 30%;
+}
+.footer {
+  background-color: #39474e;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 100%;
+
+}
